@@ -1,7 +1,7 @@
 <div align="center">
 
-  <img src="src/img/hamburgreen-logo.png" alt="Logo Hamburgreen" />  
-
+  <img src="src/img/hamburgreen-logo.png" alt="Logo Hamburgreen" style="height: 250px" /> 
+  
   # Hamburgreen: sua eco-hamburgueria predileta
   
  <br>
