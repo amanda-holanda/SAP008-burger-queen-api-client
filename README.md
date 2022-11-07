@@ -2,7 +2,7 @@
 
   <img src="" alt="Logo Burguer Green" />  
 
-  # BurGreen: sua eco-hamburgueria predileta
+  # Hamburgreen: sua eco-hamburgueria predileta
   
  <br>
 
@@ -139,7 +139,7 @@ atualizar a lista de pedidos e o total).
 
 ## 2. Definição de produto
 
-Imagina comer um lanche delicioso em uma hamburgueria que utiliza: fontes de energias 100% limpa e sustentável, material 100% e reciclável e que todo o lixo gerado é reciclado? Seu sonho virou realidade. A Burguer Green é a sua eco-hamburgueria predileta! Nossa empresa é 100% eco-friendly, pensada na sustentabilidade do planeta e construída para fazer não somente você feliz, mas a nossa natureza também.
+Imagina comer um lanche delicioso em uma hamburgueria que utiliza: fontes de energias 100% limpa, material 100% sustentável e que todo o lixo gerado é reciclado? Seu sonho virou realidade. A  Hamburgreen é a sua eco-hamburgueria predileta! Nossa empresa é 100% eco-friendly, pensada na sustentabilidade do planeta e construída para fazer não somente você feliz, mas a nossa natureza também.
 
 Aqui a energia utilizada vem de usinas solares e de biogás do Piauí, os materiais utilizáveis são todos recicláveis e todo o lixo gerado é separado de acordo com as normas de reciclagem e enviado para os locais de reciclagem corretamente.
 
