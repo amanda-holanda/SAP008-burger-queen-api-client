@@ -2,7 +2,7 @@
 
   <img src="" alt="Logo Burguer Green" />  
 
-  # Burguer Green: sua eco-hamburgueria predileta
+  # BurGreen: sua eco-hamburgueria predileta
   
  <br>
 
