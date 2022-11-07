@@ -1,19 +1,49 @@
-# Burger Queen (API Client)
+<div align="center">
+
+  <img src="" alt="Logo Burguer Green" />  
+
+  # Burguer Green: sua eco-hamburgueria predileta
+  
+ <br>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="Node.js" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest" style="height: 30px;"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="height: 30px;"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" style="height: 30px;"/>
+
+  <br>
+  
+  **Status do Projeto:** _Em andamento_ 
+
+  Confira o resultado do projeto [aqui]() ou no QR code a seguir:
+
+  <img src="" alt="QR code" />   
+  
+</div>
 
 ## Índice
 
-* [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-critérios-mínimos-de-aceitação-do-projeto)
-* [6. Hacker Edition](#6-hacker-edition)
-* [7. Pistas, tips e leituras complementares](#7-pistas-tips-e-leituras-complementares)
-
+* [1. Resumo do projeto](#1-resumo-do-projeto)
+* [2. Definição de produto](#2-definição-de-produto)
+* [3. Histórias de usuário](#3-histórias-de-usuário)
+* [4. Desenho da Interface de Usuário](#4-desenho-da-interface-de-usuário)
+  * [4.1 Protótipo de baixa fidelidade](#41-protótipo-de-baixa-fidelidade)
+  * [4.2 Protótipos de alta fidelidade](#42-protótipos-de-alta-fidelidade)
+* [5. Testes manuais e de usabilidade](#5-testes-manuais-e-de-usabilidade)
+* [6. Considerações Técnicas](#6-considerações-técnicas)
+  * [6.1 Boilerplate](#61-boilerplate)
+  * [6.2 Planejamento](#62-planejamento)
+  * [6.3 Ferramentas utilizadas](#63-ferramentas-utilizadas)
+  * [6.4 Tech Skills](#64-tech-skills)
+  * [6.5 Objetivos de aprendizagem](#65-objetivos-de-aprendizagem)
+  
 ***
 
-## 1. Prefácio
-
+## 1. Resumo do projeto
 [React](https://reactjs.org/), [Angular](https://angular.io/) e
 [Vue](https://vuejs.org/) são alguns dos _frameworks_ e _bibliotecas_ de
 JavaScript mais usados na área de desenvolvimento ao redor do mundo e existe uma
@@ -34,8 +64,6 @@ para reusar (o qual já é um grande valor por si só), mas também adotamos uma
 Como desenvolvedora Front-End, estes kits de desenvolvimento podem resultar em
 uma grande ajuda para implementar rapidamente características dos projetos em que
 você for trabalhar.
-
-## 2. Resumo do projeto
 
 Um pequeno restaurante de hambúrgueres, que está crescendo, necessita uma
 interface em que se possa realizar pedidos utilizando um _tablet_, e enviá-los
@@ -109,241 +137,13 @@ tela_, e como cada mudança no estado vai refletir na interface (por exemplo,
 toda vez que adicionamos um _produto_ para um _pedido_, a interface deve
 atualizar a lista de pedidos e o total).
 
-## 3. Objetivos de aprendizagem
+## 2. Definição de produto
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
+Imagina comer um lanche delicioso em uma hamburgueria que utiliza fontes de energias 100% limpa e que todo o material é reciclável e que todos seus dejetos são reciclados? Seu sonho virou realidade. A Burguer Green é a sua eco-hamburgueria predileta! Todos saem felizes daqui: Você e a nossa natureza. Nossa empresa é 100% eco-friendly.
 
-### HTML
+Obs: a energia utilizada vem de usinas solares e de biogás do Piauí.
 
-- [ ] **Uso de HTML semântico**
-
-  <details><summary>Links</summary><p>
-
-  * [HTML semântico](https://curriculum.laboratoria.la/pt/topics/html/02-html5/02-semantic-html)
-  * [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
-
-### CSS
-
-- [ ] **Uso de seletores de CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org//pt-BR/docs/Web/CSS/CSS_Selectors)
-</p></details>
-
-- [ ] **Empregar o modelo de caixa (box model): borda, margem, preenchimento**
-
-  <details><summary>Links</summary><p>
-
-  * [Modelo de Caixa e Display](https://curriculum.laboratoria.la/pt/topics/css/01-css/02-boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
-
-- [ ] **Uso de flexbox en CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  * [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
-  * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-</p></details>
-
-- [ ] **Uso de CSS Grid Layout**
-
-  <details><summary>Links</summary><p>
-
-  * [A Complete Guide to Grid - CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-  * [Grids - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
-</p></details>
-
-- [ ] **Uso de media queries**
-
-  <details><summary>Links</summary><p>
-
-  * [CSS media queries - MDN](https://developer.mozilla.org/pt-BR/docs/web/css/media_queries/using_media_queries)
-</p></details>
-
-### JavaScript
-
-- [ ] **Testes unitários**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
-</p></details>
-
-- [ ] **Testes assíncronos**
-
-  <details><summary>Links</summary><p>
-
-  * [Testando Código Assíncrono - Documentação oficial](https://jestjs.io/docs/pt-BR/asynchronous)
-</p></details>
-
-- [ ] **Mocking**
-
-  <details><summary>Links</summary><p>
-
-  * [Simulações Manuais - Documentação oficial](https://jestjs.io/docs/pt-BR/manual-mocks)
-</p></details>
-
-- [ ] **Uso ES modules**
-
-  <details><summary>Links</summary><p>
-
-  * [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
-
-- [ ] **Uso de linter (ESLINT)**
-
-- [ ] **Uso de identificadores descritivos (Nomenclatura | Semântica)**
-
-### Git e GitHub
-
-- [ ] **Git: Instalação e configuração**
-
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
-
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
-
-- [ ] **GitHub: Implantação com GitHub Pages**
-
-  <details><summary>Links</summary><p>
-
-  * [Site oficial do GitHub Pages](https://pages.github.com/)
-</p></details>
-
-- [ ] **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
-
-- [ ] **GitHub: Organização pelo Github (projects | issues | labels | milestones | releases)**
-
-### HTTP
-
-- [ ] **Solicitações o requisições (request) e respostas (response).**
-
-  <details><summary>Links</summary><p>
-
-  * [Uma visão geral do HTTP - MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
-  * [Mensagens HTTP - MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages)
-</p></details>
-
-- [ ] **Cabeçalhos (headers)**
-
-  <details><summary>Links</summary><p>
-
-  * [Cabeçalhos HTTP - MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers)
-</p></details>
-
-- [ ] **Corpo (body)**
-
-  <details><summary>Links</summary><p>
-
-  * [Mensagens HTTP / Corpo - MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Messages#corpo)
-</p></details>
-
-- [ ] **Verbos HTTP**
-
-  <details><summary>Links</summary><p>
-
-  * [Métodos de requisição HTTP - MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
-</p></details>
-
-- [ ] **Codigos de status de HTTP**
-
-  <details><summary>Links</summary><p>
-
-  * [Códigos de status de respostas HTTP - MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
-  * [The Complete Guide to Status Codes for Meaningful ReST APIs - dev.to](https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-1-5c5)
-</p></details>
-
-- [ ] **Encodings e JSON**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao JSON - Documentação oficial](https://www.json.org/json-pt.html)
-</p></details>
-
-- [ ] **CORS (Cross-Origin Resource Sharing)**
-
-  <details><summary>Links</summary><p>
-
-  * [Cross-Origin Resource Sharing (CORS) - MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS)
-</p></details>
-
-### react
-
-- [ ] **jsx**
-
-- [ ] **components**
-
-- [ ] **events**
-
-- [ ] **lists-and-keys**
-
-- [ ] **conditional-rendering**
-
-- [ ] **lifting-up-state**
-
-- [ ] **hooks**
-
-- [ ] **css-modules**
-
-- [ ] **routing**
-
-### user-centricity
-
-- [ ] **Desenhar a aplicação pensando e entendendo a usuária**
-
-### product-design
-
-- [ ] **Criar protótipos para obter feedback e iterar**
-
-- [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
-
-### research
-
-- [ ] **Planejar e executar testes de usabilidade**
-
-## 4. Considerações gerais
-
-Este projeto deve ser feito em pares. Lembre-se que deverá consumir a
-API [Burger Queen API](https://lab-api-bq.up.railway.app/api-docs/).
-
-Trabalhe integralmente uma história de usuário antes de passar para a próxima.
-Cumpra todas as histórias possíveis dentro do tempo especificado.
-
-A lógica do projeto deve ser totalmente implementada em JavaScript (ES6 +), HTML
-e CSS e empacotada de forma automatizada.
-
-Neste projeto você deve usar [React](https://beta.reactjs.org/).
-
-O aplicativo deve ser um _Single Page App_. Os pedidos serão enviados por meio
-de um _tablet_, mas **não queremos um aplicativo nativo**, mas sim um aplicativo
-Web que seja **mobile-first**.
-
-Precisamos pensar bem sobre o UX para aqueles que vão receber os pedidos, o
-tamanho e a aparência dos botões, a visibilidade do estado atual do pedido, etc.
-
-O aplicativo deve fazer uso de `npm-scripts` e ter scripts `start`, `test`,
-`build` e `deploy`, que são responsáveis por inicializar, rodar os testes,
-empacotar e fazer deploy do aplicativo, respectivamente.
-
-Os testes unitários devem cobrir um mínimo de 70% de _statements_, _functions_,
-_lines_ e _branches_.
-
-Por outro lado, vocês devem definir a estrutura das pastas e arquivos que considerem
-necessários. Você pode estruturá-los de acordo com as convenções do _framework_ escolhido.
-Portanto, os _testes_ e os _setups_ necessários para executá-los
-serão feitos por você.
-
-## 5. Critérios mínimos de aceitação do projeto
+## 3. Histórias de Usuário
 
 ### Definição do produto
 
@@ -447,65 +247,14 @@ rapidamente aos clientes.
 
 ***
 
-## 6. Hacker Edition
+## 4. Desenho da Interface de Usuário
 
-As seções chamadas Hacker Edition são opcionais. Se você terminou tudo e ainda sobrou tempo, faça essa parte. Assim você poderá aprofundar e exercitar mais sobre os objetivos de aprendizagem do projeto.
-
-A aplicação deve seguir 80% ou mais das pontuações de Performance, Progressive
-Web App, Accessibility e Best Practices do [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-
-## 7. Pistas, tips e leituras complementares
-### Primeiros passos
-
-1. Faça um _fork_ deste repositório (no GitHub).
-
-2. Clone seu _fork_ no seu computador:
-
-   ```sh
-   git clone git@github.com:<tu-usuario-de-github>/<cohortid>-burger-queen.git
-   cd <cohortid>-burger-queen
-   ```
-
-3. Crie uma branch a partir da `main` para começar a trabalhar. Por exemplo:
-
-   ```sh
-   git checkout -b develop
-   ```
-
-4. Veja o video de configuração inicial para você poder começar com o _front-end_ :wink:. 
-
-***
-
-5. Material complementar:
-
-* [React] (https://drive.google.com/file/d/1ccjcTnlT0re7HHjCPhos2VHrQVqdaZvx/view?usp=sharing)
-* [API] (https://www.youtube.com/watch?v=BTWPioWSoEQ)
+## 5. Testes manuais e de usabilidade
+## 6. Considerações Técnicas
+### 6.1 Boilerplate
+### 6.2 Planejamento
+### 6.3 Ferramentas utilizadas
+### 6.4 Tech Skills
+### 6.5 Objetivos de aprendizagem
 
 
-### Frameworks / bibliotecas
-
-* [React](https://reactjs.org/)
-* [React beta - versão em construção usando Hooks ](https://beta.reactjs.org/)
-* [Create React App](https://create-react-app.dev/docs/getting-started)
-* [Configuração inicial (vídeo)](https://youtu.be/38iZjr-jH5E)
-
-### Ferramentas
-
-* [npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [Babel](https://babeljs.io/)
-* [webpack](https://webpack.js.org/)
-
-### Rotas
-
-* [React Router](https://reactrouter.com/web/guides/quick-start)
-
-### PWA
-
-* [Seu primeiro Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
-* [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
-
-### Deploy
-
-* Veja a documentação [de deploy do Create React App](https://create-react-app.dev/docs/deployment).
-Você pode utilizar qualquer um dos serviços listados na documentação,
-sendo recomendado o Firebase, Vercel, Netlify, Github Pages ou Heroku.
