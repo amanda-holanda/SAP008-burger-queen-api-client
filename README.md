@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="" alt="Logo Burguer Green" />  
+  <img src="src/img/hamburgreen-logo.png" alt="Logo Hamburgreen" />  
 
   # Hamburgreen: sua eco-hamburgueria predileta
   
