@@ -269,6 +269,13 @@ O protótipo de alta fidelidade foi construído utilizando a ferramenta Figma. V
 
 <img src="src/img/paleta.png" alt="paleta de cores"/>
 
+#### Feedbacks:
+
+Na elaboração do protótipo, foram realizados algumas alterações e incorporações após receber feedbacks de melhoria de usuários. Dentre elas, estão:
+
+- Aumentar o tamanho dos botões;
+- Trocar a cor de fundo para um preto que não seja a cor pura, para evitar cansar a vista do usuário;
+- Mudança na ordem de apresentação dos pedidos da cozinha para que fique mais intuitiva;
 
 ## 5. Testes manuais e de usabilidade
 ## 6. Considerações Técnicas
