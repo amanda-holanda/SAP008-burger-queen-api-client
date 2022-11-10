@@ -29,9 +29,9 @@
 * [1. Resumo do projeto](#1-resumo-do-projeto)
 * [2. Definição de produto](#2-definição-de-produto)
 * [3. Histórias de usuário](#3-histórias-de-usuário)
-* [4. Desenho da Interface de Usuário](#4-desenho-da-interface-de-usuário)
-  * [4.1 Protótipo de baixa fidelidade](#41-protótipo-de-baixa-fidelidade)
-  * [4.2 Protótipos de alta fidelidade](#42-protótipos-de-alta-fidelidade)
+* [4. Desenho da Interface de Usuário](#4-desenho-da-interface-de-usuário)  
+  * [4.1 Protótipos de alta fidelidade](#41-protótipos-de-alta-fidelidade)
+  * [4.2 Paleta de Cores](#42-paleta-de-cores)
 * [5. Testes manuais e de usabilidade](#5-testes-manuais-e-de-usabilidade)
 * [6. Considerações Técnicas](#6-considerações-técnicas)
   * [6.1 Boilerplate](#61-boilerplate)
@@ -248,6 +248,8 @@ rapidamente aos clientes.
 
 ## 4. Desenho da Interface de Usuário
 
+### 4.1 Protótipos de alta fidelidade
+
 O protótipo de alta fidelidade foi construído utilizando a ferramenta Figma. Você pode conferí-lo inteiramente [aqui](https://www.figma.com/proto/DcySoXGhWAKQHVPEA2hLVY/Burguer-Queen?node-id=23%3A5&scaling=scale-down&page-id=23%3A4&starting-point-node-id=23%3A5).
 
 <div display="flex>
@@ -262,6 +264,11 @@ O protótipo de alta fidelidade foi construído utilizando a ferramenta Figma. V
 <img src="src/img/prototipo-8.png" alt="prototipo" style="height: 250px"/>
 
 </div>
+
+### 4.2 Paleta de cores
+
+<img src="src/img/paleta.png" alt="paleta de cores"/>
+
 
 ## 5. Testes manuais e de usabilidade
 ## 6. Considerações Técnicas
