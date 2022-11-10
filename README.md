@@ -248,15 +248,21 @@ rapidamente aos clientes.
 
 ## 4. Desenho da Interface de Usuário
 
-<img src="src/img/prototipo-1.png" alt="prototipo" style="height: 60px"/>
-<img src="src/img/prototipo-2.png" alt="prototipo" style="height: 60px"/>
-<img src="src/img/prototipo-3.png" alt="prototipo" style="height: 60px"/>
-<img src="src/img/prototipo-4.png" alt="prototipo" style="height: 60px"/>
-<img src="src/img/prototipo-5.png" alt="prototipo" style="height: 60px"/>
-<img src="src/img/prototipo-6.png" alt="prototipo" style="height: 60px"/>
-<img src="src/img/prototipo-7.png" alt="prototipo" style="height: 60px"/>
-<img src="src/img/prototipo-8.png" alt="prototipo" style="height: 60px"/>
-<img src="src/img/prototipo-9.png" alt="prototipo" style="height: 60px"/>
+O protótipo de alta fidelidade foi construído utilizando a ferramente Figma. Você pode conferí-lo inteiramente [aqui](https://www.figma.com/proto/DcySoXGhWAKQHVPEA2hLVY/Burguer-Queen?node-id=23%3A5&scaling=scale-down&page-id=23%3A4&starting-point-node-id=23%3A5).
+
+<div display="flex>
+
+<img src="src/img/prototipo-1.png" alt="prototipo" style="height: 300px"/>
+<img src="src/img/prototipo-2.png" alt="prototipo" style="height: 300px"/>
+<img src="src/img/prototipo-3.png" alt="prototipo" style="height: 300px"/>
+<img src="src/img/prototipo-4.png" alt="prototipo" style="height: 300px"/>
+<img src="src/img/prototipo-5.png" alt="prototipo" style="height: 300px"/>
+<img src="src/img/prototipo-6.png" alt="prototipo" style="height: 300px"/>
+<img src="src/img/prototipo-7.png" alt="prototipo" style="height: 300px"/>
+<img src="src/img/prototipo-8.png" alt="prototipo" style="height: 300px"/>
+<img src="src/img/prototipo-9.png" alt="prototipo" style="height: 300px"/>
+
+</div>
 
 ## 5. Testes manuais e de usabilidade
 ## 6. Considerações Técnicas
