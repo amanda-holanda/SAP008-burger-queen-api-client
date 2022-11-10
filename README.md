@@ -260,7 +260,6 @@ O protótipo de alta fidelidade foi construído utilizando a ferramenta Figma. V
 <img src="src/img/prototipo-6.png" alt="prototipo" style="height: 250px"/>
 <img src="src/img/prototipo-7.png" alt="prototipo" style="height: 250px"/>
 <img src="src/img/prototipo-8.png" alt="prototipo" style="height: 250px"/>
-<img src="src/img/prototipo-9.png" alt="prototipo" style="height: 250px"/>
 
 </div>
 
