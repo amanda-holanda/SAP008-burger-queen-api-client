@@ -249,6 +249,16 @@ rapidamente aos clientes.
 
 ## 4. Desenho da Interface de Usuário
 
+<img src="src/img/prototipo-1.png" alt="prototipo" style="height: 60px"/>
+<img src="src/img/prototipo-2.png" alt="prototipo" style="height: 60px"/>
+<img src="src/img/prototipo-3.png" alt="prototipo" style="height: 60px"/>
+<img src="src/img/prototipo-4.png" alt="prototipo" style="height: 60px"/>
+<img src="src/img/prototipo-5.png" alt="prototipo" style="height: 60px"/>
+<img src="src/img/prototipo-6.png" alt="prototipo" style="height: 60px"/>
+<img src="src/img/prototipo-7.png" alt="prototipo" style="height: 60px"/>
+<img src="src/img/prototipo-8.png" alt="prototipo" style="height: 60px"/>
+<img src="src/img/prototipo-9.png" alt="prototipo" style="height: 60px"/>
+
 ## 5. Testes manuais e de usabilidade
 ## 6. Considerações Técnicas
 ### 6.1 Boilerplate
