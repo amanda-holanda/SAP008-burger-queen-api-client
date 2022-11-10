@@ -248,7 +248,7 @@ rapidamente aos clientes.
 
 ## 4. Desenho da Interface de Usuário
 
-O protótipo de alta fidelidade foi construído utilizando a ferramente Figma. Você pode conferí-lo inteiramente [aqui](https://www.figma.com/proto/DcySoXGhWAKQHVPEA2hLVY/Burguer-Queen?node-id=23%3A5&scaling=scale-down&page-id=23%3A4&starting-point-node-id=23%3A5).
+O protótipo de alta fidelidade foi construído utilizando a ferramenta Figma. Você pode conferí-lo inteiramente [aqui](https://www.figma.com/proto/DcySoXGhWAKQHVPEA2hLVY/Burguer-Queen?node-id=23%3A5&scaling=scale-down&page-id=23%3A4&starting-point-node-id=23%3A5).
 
 <div display="flex>
 
