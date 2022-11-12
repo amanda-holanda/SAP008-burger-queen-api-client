@@ -20,11 +20,7 @@ JavaScript mais usados na área de desenvolvimento ao redor do mundo e existe um
 razão para isso. No contexto do navegador, [_manter a interface sincronizada com
 o estado é
 difícil_](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445).
-Ao eleger um _framework_ ou _biblioteca_ para nossa interface, nos apoiamos em
-uma série de convenções e implementações _testadas_ e _documentadas_ para
-resolver um problema comum a toda interface web. Isto nos permite concentrar
-melhor (dedicar mais tempo) nas características _específicas_ de nossa
-aplicação.
+
 
 Quando escolhemos uma destas tecnologias não só importamos um pedaço de código
 para reusar (o qual já é um grande valor por si só), mas também adotamos uma
