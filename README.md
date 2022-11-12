@@ -140,7 +140,7 @@ atualizar a lista de pedidos e o total).
 
 Imagina comer um lanche delicioso em uma hamburgueria que utiliza: fontes de energias 100% limpa, material 100% sustentável e que todo o lixo gerado é reciclado? Pois esse sonho é real! Seja bem-vindo(a) à Hamburgreen, a sua eco-hamburgueria predileta! 
 
-Aqui a energia utilizada vem de usinas solares e de biogás do Piauí, os materiais utilizáveis são todos recicláveis e todo o lixo gerado é separado de acordo com as normas de reciclagem e enviado para os seus respectivos locais de reciclagem.
+Aqui a energia utilizada vem de usinas solares e de biogás do Piauí, os materiais utilizáveis são todos recicláveis e todo o lixo gerado é descartado de acordo com as normas de reciclagem .
 
 Nossa empresa é 100% eco-friendly, pensada na sustentabilidade do planeta e construída para fazer não somente você feliz, mas a nossa natureza também.
 
