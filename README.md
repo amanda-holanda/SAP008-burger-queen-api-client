@@ -1,70 +1,192 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img src="src/img/hamburgreen-logo.png" alt="Logo Hamburgreen" style="height: 200px" /> 
+  
+  # Hamburgreen: sua eco-hamburgueria predileta
+  
+ <br>
 
-## Available Scripts
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="Node.js" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest" style="height: 30px;"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="height: 30px;"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" style="height: 30px;"/>
 
-In the project directory, you can run:
+  <br>
+  
+  **Status do Projeto:** _Em andamento_ 
+  <!--
+  Confira o resultado do projeto [aqui]() ou no QR code a seguir:
 
-### `npm start`
+  <img src="" alt="QR code" />   
+  -->
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Índice
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [1. Resumo do projeto](#1-resumo-do-projeto)
+* [2. Definição de produto](#2-definição-de-produto)
+* [3. Histórias de usuário](#3-histórias-de-usuário)
+* [4. Desenho da Interface de Usuário](#4-desenho-da-interface-de-usuário)  
+  * [4.1 Protótipos de alta fidelidade](#41-protótipos-de-alta-fidelidade)
+  * [4.2 Paleta de Cores](#42-paleta-de-cores)
+* [5. Testes manuais e de usabilidade](#5-testes-manuais-e-de-usabilidade)
+* [6. Considerações Técnicas](#6-considerações-técnicas)
+  * [6.1 Boilerplate](#61-boilerplate)
+  * [6.2 Planejamento](#62-planejamento)
+  * [6.3 Ferramentas utilizadas](#63-ferramentas-utilizadas)
+  * [6.4 Tech Skills](#64-tech-skills)
+  * [6.5 Objetivos de aprendizagem](#65-objetivos-de-aprendizagem)
+  
+***
 
-### `npm test`
+## 1. Resumo do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto Burguer Queen foi o quarto projeto desenvolvido no bootcamp da [Laboratoria](https://www.laboratoria.la/br). O seu principal objetivo era  aprender a construir uma <i>interface web</i> usando o <i>framework</i> React. Dessa forma, deveria-se desenvolver uma interface para uma hamburgueria, com o objetivo de realizar pedidos utilizando um tablet, e enviá-los para a cozinha para que sejam preparados de forma ordenada e eficiente. O projeto deveria ter duas áreas: interface (cliente) e API (servidor), de modo que a interface se integrasse com a API. 
+<!-- colocar aqui um resumo do que foi mais aprendido durante o projeto -->
 
-### `npm run build`
+A partir disso, desenvolveu-se uma interface web para a Hamburgreen: a sua eco-hamburgueria predileta. A Hamburgreen é uma hamburgueria 100% eco-friendly pensada na sustentabilidade do planeta e construída para fazer não somente o seu cliente feliz, mas a natureza também. Ela utiliza energias renováveis de usinas solares e de biogás do Piauí; todos os seus materiais são recicláveis e todo o lixo gerado é descartado de acordo com as normas de reciclagem. <!-- colocar aqui que a partir disso desenvolveu uma pra interface pratica intuitiva e leve, pensando no sempre no melhor para os seu ambiente de trabalhoque de swer saudavel e assim como a sua cultura  -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2. Definição de produto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Hamburgreen: a sua eco-hamburgueria predileta. A Hamburgreen é uma hamburgueria 100% eco-friendly pensada na sustentabilidade do planeta e construída para fazer não somente o seu cliente feliz, mas a natureza também. Ela utiliza energias renováveis de usinas solares e de biogás do Piauí; todos os seus materiais são recicláveis e todo o lixo gerado é descartado de acordo com as normas de reciclagem. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 3. Histórias de Usuário
 
-### `npm run eject`
+#### [História de usuário 1] Garçom/Garçonete deve poder entrar no sistema
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> <i>"Eu, como garçom/garçonete quero entrar no sistema de pedidos."</i>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##### Critérios de aceitação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+O que deve acontecer para satisfazer as necessidades do usuário?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Acessar uma tela de login.
+* Inserir email e senha.
+* Receber mensagens de erros compreensíveis, conforme o erro e as informações inseridas.
+* Entrar no sistema de pedidos caso as credenciais forem corretas.
 
-## Learn More
+##### Definição de pronto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O acordado abaixo deve acontecer para dizer que a história está terminada:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Você deve ter recebido _code review_ de pelo menos uma parceira.
+* Fez _testes_ unitários e, além disso, testou seu produto manualmente.
+* Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
+* Você deu deploy de seu aplicativo e marcou sua versão (tag git).
 
-### Code Splitting
+***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### [História de usuário 2] Garçom/Garçonete deve ser capaz de anotar o pedido do cliente
 
-### Analyzing the Bundle Size
+> <i>"Eu como garçom/garçonete quero poder anotar o pedido de um cliente para não
+depender da minha memória, saber quanto cobrar e poder enviar os pedidos para a
+cozinha para serem preparados em ordem."</i>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##### Critérios de aceitação
 
-### Making a Progressive Web App
+O que deve acontecer para satisfazer as necessidades do usuário?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Anotar o nome do cliente.
+* Adicionar produtos aos pedidos.
+* Excluir produtos.
+* Ver resumo e o total da compra.
+* Enviar o pedido para a cozinha (guardar em algum banco de dados).
+* Funcionar bem em um _tablet_.
 
-### Advanced Configuration
+##### Definição de pronto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+O acordado abaixo deve acontecer para dizer que a história está terminada:
 
-### Deployment
+* Você deve ter recebido _code review_ de pelo menos uma parceira.
+* Fez _testes_ unitários e, além disso, testou seu produto manualmente.
+* Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
+* Você deu deploy de seu aplicativo e marcou sua versão (tag git).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+***
 
-### `npm run build` fails to minify
+#### [História de usuário 3] Chefe de cozinha deve ver os pedidos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> <i>"Eu como chefe de cozinha quero ver os pedidos dos clientes em ordem, poder
+marcar que estão prontos e poder notificar os garçons/garçonetes que o pedido
+está pronto para ser entregue ao cliente."</i>
+
+##### Critérios de aceitação
+
+* Ver os pedidos ordenados à medida em que são feitos.
+* Marcar os pedidos que foram preparados e estão prontos para serem servidos.
+* Ver o tempo que levou para preparar o pedido desde que chegou, até ser marcado
+  como concluído.
+
+##### Definição de pronto
+
+* Você deve ter recebido _code review_ de pelo menos uma parceira.
+* Fez _testes_ unitários e, além disso, testou seu produto manualmente.
+* Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
+* Você deu deploy de seu aplicativo e marcou sua versão (tag git).
+
+***
+
+#### [História de usuário 4] Garçom/Garçonete deve ver os pedidos prontos para servir
+
+> <i>"Eu como garçom/garçonete quero ver os pedidos que estão prontos para entregá-los
+rapidamente aos clientes."</i>
+
+##### Critérios de aceitação
+
+* Ver a lista de pedidos prontos para servir.
+* Marcar os pedidos que foram entregues.
+
+##### Definição de pronto
+
+* Você deve ter recebido _code review_ de pelo menos uma parceira.
+* Fez _testes_ unitários e, além disso, testou seu produto manualmente.
+* Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
+* Você deu deploy de seu aplicativo e marcou sua versão (tag git).
+* Os dados devem ser mantidos intactos, mesmo depois que um pedido for
+  finalizado. Tudo isso para poder ter estatísticas no futuro.
+
+***
+
+## 4. Desenho da Interface de Usuário
+
+### 4.1 Protótipos de alta fidelidade
+
+O protótipo de alta fidelidade foi construído utilizando a ferramenta Figma. Você pode conferí-lo inteiramente [aqui](https://www.figma.com/proto/DcySoXGhWAKQHVPEA2hLVY/Burguer-Queen?node-id=23%3A5&scaling=scale-down&page-id=23%3A4&starting-point-node-id=23%3A5).
+
+<div display="flex>
+
+<img src="src/img/prototipo-1.png" alt="prototipo" style="height: 250px"/>
+<img src="src/img/prototipo-2.png" alt="prototipo" style="height: 250px"/>
+<img src="src/img/prototipo-3.png" alt="prototipo" style="height: 250px"/>
+<img src="src/img/prototipo-4.png" alt="prototipo" style="height: 250px"/>
+<img src="src/img/prototipo-5.png" alt="prototipo" style="height: 250px"/>
+<img src="src/img/prototipo-6.png" alt="prototipo" style="height: 250px"/>
+<img src="src/img/prototipo-7.png" alt="prototipo" style="height: 250px"/>
+<img src="src/img/prototipo-8.png" alt="prototipo" style="height: 250px"/>
+
+</div>
+
+### 4.2 Paleta de cores
+
+<img src="src/img/paleta.png" alt="paleta de cores"/>
+
+#### Feedbacks:
+
+Na elaboração do protótipo, foram realizados algumas alterações e incorporações após receber feedbacks de melhoria de usuários. Dentre elas, estão:
+
+- Aumentar o tamanho dos botões;
+- Trocar a cor de fundo para um preto que não seja a cor pura, para evitar cansar a vista do usuário;
+- Mudança na ordem de apresentação dos pedidos da cozinha para que fique mais intuitiva;
+
+## 5. Testes manuais e de usabilidade
+## 6. Considerações Técnicas
+### 6.1 Boilerplate
+### 6.2 Planejamento
+                                                   
+                                                   
+### 6.3 Ferramentas utilizadas
+### 6.4 Tech Skills
+### 6.5 Objetivos de aprendizagem
