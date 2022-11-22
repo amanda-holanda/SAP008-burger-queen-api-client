@@ -3,7 +3,7 @@ function Signup() {
         <div>
             <form>
                 <label for="user">
-                    <input type="text" placeholder="Nome" name="name"></input>
+                    
                 </label>
                 <label for="user">
                     <input type="email" placeholder="Email" name="email"></input>
