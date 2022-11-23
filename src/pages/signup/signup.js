@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+
 function Signup() {
     return (
         <div>
             <form>
                 <h1>Cadastro</h1>
-                <button type="button">Voltar</button>
+                <Link to="/">Voltar</Link>
                 <label for="user">
                     <input type="text" placeholder="Nome" name="name"></input>
                 </label>
