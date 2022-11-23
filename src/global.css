@@ -1,0 +1,23 @@
+@import url('./pages/login/login.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #0C0B0B;
+  --green: #62FB8D;
+  --violet: #9463a9;
+  --purple: #71269F;
+  --white: aliceblue;
+
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  padding: 2rem;
+}
