@@ -28,7 +28,7 @@ export const fetchCreateUser = async () => {
 
 
 //passo a passo
-// [] - spa: fazer as funções de hashchanges para fazer as rotas 
+// [X] - spa: fazer as funções de hashchanges para fazer as rotas 
 // [] - componentizar os inputs
 // [] - colocar o valor dos inputs no body do objeto/funcao do createUser
 // [] - colocar o then com o data na linha 26 (dps do then)
