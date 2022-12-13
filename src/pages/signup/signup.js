@@ -1,7 +1,40 @@
-import { Link,  useNavigate } from 'react-router-dom';
+import Select from '../../components/form/select'
+import Input from '../../components/form/input'
+import SubmitButton from '../../components/form/submitButton'
+import { Link, useNavigate  } from 'react-router-dom';
 import { useState } from "react";
 import React from "react";
 import { createUser, setTokenPosition } from "../../services/services";
+
+function Signup() {
+    return (
+        <form>
+            <h1>Cadastro</h1>
+            <Link to="/">Voltar</Link>
+            <Input
+                type="text"
+                id="name"
+                placeholder="Nome"
+                name="name"
+            />
+            <Input
+                type="email"
+                id="email"
+                placeholder="Email"
+                name="email"
+            />
+            <Input
+                type="password"
+                id="password"
+                placeholder="Senha"
+                name="password"
+            />
+            <Select name="cargo" text="Cargo" />
+            <SubmitButton type="submit" text="Cadastrar" />
+
+        </form>
+    )
+}
 
 export const Register = () => {
     const [name, setName] = useState("");
@@ -33,31 +66,5 @@ export const Register = () => {
         })
         .catch((error) => setError(error));
     }};
-
-function Signup() {
-    return (
-        <div>
-            <form>
-                <h1>Cadastro</h1>
-                <Link to="/">Voltar</Link>
-                <label for="user">
-                    <input type="text" placeholder="Nome" name="name"></input>
-                </label>
-                <label for="user">
-                    <input type="email" placeholder="Email" name="email"></input>
-                </label>
-                <label for="user">
-                    <input type="password" placeholder="Senha" name="password"></input>
-                </label>
-                <select name="cargos">
-                    <option value="atendente">Atendente</option>
-                    <option value="Cozinha">Cozinha</option>
-                </select>
-                <button type="submit">Cadastrar</button>
-
-            </form>
-        </div>
-    )
-}
 
 export default Signup;
