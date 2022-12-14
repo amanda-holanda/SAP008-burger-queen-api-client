@@ -10,9 +10,9 @@ import hamburgreenLogo from "../../img/hamburgreen-logo.png";
 function Signup() {
     return (
         <form>
-            <img src={hamburgreenLogo} alt="hamburgreen logo"/>
-            <h1 className='cadastro'>Cadastro</h1>
+            <img src={hamburgreenLogo} alt="hamburgreen logo" className='hamburgreenLogo'/>            
             <Link to="/">Voltar</Link>
+            <h1 className='cadastro'>Cadastro</h1>
             <Input
                 type="text"
                 id="name"
