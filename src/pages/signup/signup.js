@@ -5,11 +5,13 @@ import { Link, useNavigate  } from 'react-router-dom';
 import { useState } from "react";
 import React from "react";
 import { createUser, setTokenPosition } from "../../services/services";
+import hamburgreenLogo from "../../img/hamburgreen-logo.png";
 
 function Signup() {
     return (
         <form>
-            <h1>Cadastro</h1>
+            <img src={hamburgreenLogo} alt="hamburgreen logo"/>
+            <h1 className='cadastro'>Cadastro</h1>
             <Link to="/">Voltar</Link>
             <Input
                 type="text"

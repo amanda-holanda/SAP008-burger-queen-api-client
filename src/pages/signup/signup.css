@@ -1,5 +1,4 @@
-/*<select id={cargos} name="cargos">
-                    <option disabled selected>Cargo</option>
-                    <option value="atendente">Atendente</option>
-                    <option value="Cozinha">Cozinha</option>
-                </select>
+.cadastro {
+    color: red;
+}
+
