@@ -9,32 +9,35 @@ import hamburgreenLogo from "../../img/hamburgreen-logo.png";
 
 function Signup() {
   return (
-    <form className='formSignup'>
+    <div class="wrapperSignup">
       <img src={hamburgreenLogo} alt="hamburgreen logo" className='hamburgreenLogo' />
       <Link to="/">Voltar</Link>
-      <h1 className='signupTitle'>Cadastro</h1>
-      <Input
-        type="text"
-        id="name"
-        placeholder="Nome"
-        name="name"
-      />
-      <Input
-        type="email"
-        id="email"
-        placeholder="Email"
-        name="email"
-      />
-      <Input
-        type="password"
-        id="password"
-        placeholder="Senha"
-        name="password"
-      />
-      <Select name="cargo" text="Cargo" />
-      <SubmitButton type="submit" text="Cadastrar" />
+      <form className='formSignup'>        
+        <h1 className='signupTitle'>Cadastro</h1>
+        <Input
+          type="text"
+          id="name"
+          placeholder="Nome"
+          name="name"
+        />
+        <Input
+          type="email"
+          id="email"
+          placeholder="Email"
+          name="email"
+        />
+        <Input
+          type="password"
+          id="password"
+          placeholder="Senha"
+          name="password"
+        />
+        <Select name="cargo" text="Cargo" />
+        <SubmitButton type="submit" text="Cadastrar" />
 
-    </form>
+      </form>
+    </div>
+    
   )
 }
 
