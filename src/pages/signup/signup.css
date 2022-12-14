@@ -7,9 +7,19 @@
     justify-content: center;
 }
 
-.voltarLink {
-    border: 1px solid green;
+.voltarLink {    
     text-decoration: none;
+    background-color: var(--grey);
+    color: var(--green);
+    height: 3vh;
+    width: 12vw;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.voltarLink:hover {
+    opacity: 0.5;
 }
 
 .formSignup {
