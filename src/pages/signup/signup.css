@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.hamburgreenLogo {
+    height: 250px;
+}
+
 .cadastro {
     color: red;
 }
