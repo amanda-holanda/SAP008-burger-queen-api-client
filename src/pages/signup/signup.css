@@ -3,6 +3,13 @@
     display: flex;
     flex-direction: column;    
     align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.voltarLink {
+    border: 1px solid green;
+    text-decoration: none;
 }
 
 .formSignup {
