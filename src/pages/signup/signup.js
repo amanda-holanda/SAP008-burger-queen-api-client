@@ -12,7 +12,7 @@ function Signup() {
     <form className='formSignup'>
       <img src={hamburgreenLogo} alt="hamburgreen logo" className='hamburgreenLogo' />
       <Link to="/">Voltar</Link>
-      <h1 className='cadastro'>Cadastro</h1>
+      <h1 className='signupTitle'>Cadastro</h1>
       <Input
         type="text"
         id="name"
