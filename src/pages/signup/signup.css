@@ -1,5 +1,11 @@
+.formSignup {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .cadastro {
     color: red;
 }
-
