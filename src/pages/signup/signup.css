@@ -24,11 +24,12 @@
 
 .formSignup {
     border: 1px solid white;
-    display: flex;
-    flex-direction: column;
+    display: flex;    
     justify-content: center;
     align-items: center;
     padding: 4%;
+    flex-wrap: wrap;
+    width: 400px;
 }
 
 .hamburgreenLogo {
