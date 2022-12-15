@@ -2,6 +2,7 @@
 @import url('./pages/signup/signup.css');
 @import url('./components/form/input.css');
 @import url('./components/form/submitButton.css');
+@import url('./components/form/select.css');
 
 * {
   margin: 0;
