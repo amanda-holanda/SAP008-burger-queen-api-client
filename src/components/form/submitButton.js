@@ -1,7 +1,7 @@
 function SubmitButton({ type, text }) {
     return (
         <div>
-            <button type={type}>{text}</button>
+            <button className="submitButton" type={type}>{text}</button>
         </div>
     )
 }
