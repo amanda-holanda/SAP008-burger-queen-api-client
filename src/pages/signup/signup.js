@@ -5,6 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState } from "react";
 import React from "react";
 import { createUser, setTokenRole } from "../../services/services";
+import hamburgreenLogo from "../../img/hamburgreen-logo.png";
 
 export const Signup = () => {
     const [name, setName] = useState("");
@@ -36,12 +37,13 @@ export const Signup = () => {
         })
         .catch((error) => setError(error));
     }
-
    
       return (
-          <form>
-              <h1>Cadastro</h1>
-              <Link to="/">Voltar</Link>
+          <div class="wrapperSignup">
+            <img src={hamburgreenLogo} className='hamburgreenLogo' />
+            <Link className='voltarLink' to="/">Voltar</Link>
+            <form className='formSignup'>        
+              <h1 className='signupTitle'>Cadastro</h1>            
               <Input
                   type="text"
                   id="name"
@@ -68,6 +70,6 @@ export const Signup = () => {
               <SubmitButton onClick={handleCreateUser} type="submit" text="Cadastrar"/>
   
           </form>
+        </div>
       )
   };
-

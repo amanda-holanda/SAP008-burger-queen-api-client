@@ -1,5 +1,41 @@
-/*<select id={cargos} name="cargos">
-                    <option disabled selected>Cargo</option>
-                    <option value="atendente">Atendente</option>
-                    <option value="Cozinha">Cozinha</option>
-                </select>
+.wrapperSignup {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.voltarLink {    
+    text-decoration: none;
+    background-color: var(--grey);
+    color: var(--green);
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.voltarLink:hover {
+    opacity: 0.5;
+}
+
+.formSignup {
+    border: 1px solid white;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.hamburgreenLogo {
+    height: 250px;
+}
+
+.signupTitle {
+    color: var(--violet);
+}
