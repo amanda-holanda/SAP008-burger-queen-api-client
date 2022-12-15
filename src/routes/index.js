@@ -1,5 +1,5 @@
-import Login from '../pages/login/login';
-import Signup from '../pages/signup/signup';
+import { Login } from '../pages/login/login';
+import { Signup }from '../pages/signup/signup';
 import { Routes, Route } from 'react-router-dom';
 
 function AllRoutes() {

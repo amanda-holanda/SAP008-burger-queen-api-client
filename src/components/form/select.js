@@ -1,8 +1,12 @@
 function Select({ text, name, options, handleOnChange, value }) {
     return (
-        <select className="selectSignup" name={name} id={name}>
-            <option disabled selected>Cargo</option>
-        </select>
+        <div>
+            <select className="selectSignup" name={name} id={name}>
+                <option value="" disabled selected>Cargo</option>
+                <option value="garçom">Garçom</option>
+                <option value="chefe">Chefe</option>
+            </select>
+        </div>
     )
 }
 
