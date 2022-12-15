@@ -1,50 +1,43 @@
-export const setTokenPosition = (token, position) => {
+export const setTokenRole = (token, role) => {
     localStorage.setItem('token', token);
-    localStorage.setItem('position', position);
+    localStorage.setItem('role', role);
   }
 
 export const getToken = () => localStorage.getItem('token');
-export const getPosition = () => localStorage.getItem('position');
+export const getRole = () => localStorage.getItem('role');
 
-export const createUser = (name, email, password, position) => {
+export const createUser = (name, email, password, role) => {
     return fetch('https://lab-api-bq.onrender.com/users', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        name: name,
-        email: email,
-        password: password,
-        position: position,
+        name,
+        email,
+        password,
+        role,
         restaurant: "Hamburgreen",
       }),
     })};
 
-// // const baseUrl = 'https://lab-api-bq.onrender.com/'; //tá certo?
-// // const apiCreateUser = `${baseUrl}/users/`;
-// //criar uma função pra montar esse objeto. tem que receber os dados do input. 
-// //tem que ser chamada nos componentes do react
 
-// const createUser = () => {
-//     const creatingUsers = {
-//         method: 'POST',
-//         headers: {
-//             'Content-type': 'application/json',        
-//         },
-//         body: {
-//             "name": "Sample Name - optional", //trocar pelos dados do input,
-//             "email": "sample@mail.com",
-//             "password": "sample",
-//             "role": "sample role",
-//             "restaurant": "sample restaurant"
-//         }
-//     }
-// }
-
-// export const fetchCreateUser = async () => {
-//     fetch(apiCreateUser, createUser)
-//         .then((response) => response.json())
-//         //colocar outro then com data (print ju)
-// }
-
+export const login = (email, password) => fetch('https://lab-api-bq.onrender.com/auth', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    });
+    
+export const accessUser = () => fetch('https://lab-api-bq.onrender.com/users', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: getToken(),
+      },
+    });
+    
