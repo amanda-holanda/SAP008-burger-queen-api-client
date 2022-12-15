@@ -1,0 +1,9 @@
+.inputSignup {
+    border: 1px solid var(--violet);
+    background-color: var(--black);
+    color: var(--white);
+    height: 40px;
+    margin: 2%;
+    border-radius: 4px;    
+    font-size: large;
+}

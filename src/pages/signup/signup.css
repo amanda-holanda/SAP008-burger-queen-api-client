@@ -11,8 +11,8 @@
     text-decoration: none;
     background-color: var(--grey);
     color: var(--green);
-    height: 3vh;
-    width: 12vw;
+    height: 30px;
+    width: 100px;
     text-align: center;
     font-weight: bolder;
     border-radius: 5px;
@@ -28,6 +28,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4%;
 }
 
 .hamburgreenLogo {

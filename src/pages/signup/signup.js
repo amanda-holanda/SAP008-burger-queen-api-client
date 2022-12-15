@@ -14,7 +14,7 @@ function Signup() {
       <Link className='voltarLink' to="/">Voltar</Link>
       <form className='formSignup'>        
         <h1 className='signupTitle'>Cadastro</h1>
-        <Input
+        <Input          
           type="text"
           id="name"
           placeholder="Nome"
