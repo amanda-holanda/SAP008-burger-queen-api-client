@@ -4,6 +4,7 @@ import SubmitButton from '../../components/form/submitButton'
 import { Link, useNavigate} from 'react-router-dom';
 import React, { useState } from 'react';
 import { login, setTokenRole } from "../../services/services";
+import hamburgreenLogo from '../../img/hamburgreen-logo.png';
 
 export const Login = () => {
     const [email, setEmail] = useState('');
@@ -35,27 +36,32 @@ export const Login = () => {
     }
 
   return (
-        <form>
-            <h1>Login</h1>
+        <form className='login'>
+            <img className='imgLogin' alt="Logo Hamburgreen" src={hamburgreenLogo} />
+            <h1 className='tittle'>Login</h1>
+
             <Input
                 type="email"
                 id="email"
-                placeholder="Email"
+                placeholder=" E-mail"
                 name="email"
                 onChange={(e) => setEmail(e.target.value)}
             />
             <Input
                 type="password"
                 id="password"
-                placeholder="Senha"
+                placeholder=" Senha"
                 name="password"
                 onChange={(e) => setPassword(e.target.value)}
             />
+            <div className='loginbtn'>
             <p className="errorMsg">{error}</p>
             <Select name="cargo" text="Cargo"/>
             <SubmitButton onClick={handleLogin} type="submit" text="Entrar" />
-            <span>Não possui cadastro?</span>
-            <Link to="signup/">Cadastre-se</Link>
+            </div>
+            <span className='noSignUp'>Não possui cadastro? 
+            <Link className='signUp' to="signup/"> Cadastre-se</Link>
+            </span>
         </form >
     )
 };
