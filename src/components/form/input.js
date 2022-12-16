@@ -1,4 +1,4 @@
-function Input({ type, name, placeholder, handleOnChange, value }) {
+function Input({ type, name, placeholder, onChange, value }) {
     return (
         <label htmlFor={name}>
             <input
@@ -7,7 +7,7 @@ function Input({ type, name, placeholder, handleOnChange, value }) {
                 name={name}
                 id={name}
                 placeholder={placeholder}
-                onChange={handleOnChange}
+                onChange={onChange}
                 value={value}
             />
         </label>
