@@ -1,11 +1,11 @@
 .submitButton {     
     background-color: var(--green);
     color: var(--grey);
-    height: 40px;
-    width: 130px;
+    height: 60px;
+    width: 210px;
     text-align: center;
     font-weight: bolder;
-    border-radius: 4px;
-    font-size: large;
+    border-radius: 10px;
+    font-size: 2rem;
     margin-left: 8%;
 }
