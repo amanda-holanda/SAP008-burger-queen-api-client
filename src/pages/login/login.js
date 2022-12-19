@@ -16,15 +16,7 @@ export const Login = () => {
     e.preventDefault();
     console.log(email, password);
     login(email, password)
-      .then((response) => response.json())
-      .then((obj) => {
-        if (obj.code) {
-          throw (obj.message);
-        } else {
-          return obj;
-        }
-      })
-      .then((data) => {
+     .then((data) => {
         if (!data) return;
         setTokenRole(data.token, data.role);
         if (data.role === 'garçom') {

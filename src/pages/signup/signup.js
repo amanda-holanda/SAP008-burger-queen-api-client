@@ -22,14 +22,6 @@ export const Signup = () => {
     e.preventDefault();
     console.log(name, email, password, positionUser)
     createUser(name, email, password, positionUser)
-      .then((response) => response.json())
-      .then((obj) => {
-        if (obj.code) {
-          throw (obj.message)
-        } else {
-          return obj
-        }
-      })
       .then((data) => {
         if (!data) return;
         setTokenRole(data.token, data.position);
