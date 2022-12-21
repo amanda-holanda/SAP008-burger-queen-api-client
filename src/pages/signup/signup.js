@@ -40,10 +40,10 @@ export const Signup = () => {
   }
 
   return (
-    <div className="wrapperSignup">
+    <form className='formSignup' onSubmit={handleCreateUser}>    
       <img src={hamburgreenLogo} className='hamburgreenLogo' />
       <Link className='voltarLink' to="/">Voltar</Link>
-      <form className='formSignup' onSubmit={handleCreateUser}>
+      
         <h1 className='signupTitle'>Cadastro</h1>
         <Input
           type="text"
@@ -69,8 +69,6 @@ export const Signup = () => {
         <p className="errorMsg">{error}</p>
         <Select onChange={handleChangePosition} name="cargo" text="Cargo" />
         <SubmitButton type="submit" text="Cadastrar" />
-
-      </form>
-    </div>
+    </form>    
   )
 };

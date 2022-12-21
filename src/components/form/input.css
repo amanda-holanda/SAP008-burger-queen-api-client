@@ -1,9 +1,11 @@
 .inputSignup {
-    border: 1px solid var(--violet);
+    margin-left: 18vw;
     background-color: var(--black);
+    border: solid 3px var(--violet);
+    width: 60vw;
+    height: 8vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 1.3rem;
     color: var(--white);
-    height: 40px;
-    margin: 2%;
-    border-radius: 4px;    
-    font-size: large;
 }
