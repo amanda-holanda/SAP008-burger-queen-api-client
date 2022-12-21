@@ -1,10 +1,15 @@
-.wrapperSignup {
-    border: 1px solid red;
+.formSignup {    
     display: flex;
-    flex-direction: column;    
-    align-items: center;
-    height: 100vh;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.hamburgreenLogo {
+    align-self: center;
+    width: 347px;
+    height: 347px;
+    left: 190px;
+    top: 80px;
 }
 
 .voltarLink {    
@@ -16,26 +21,20 @@
     text-align: center;
     font-weight: bolder;
     border-radius: 5px;
+    margin-left: 65vw
 }
 
 .voltarLink:hover {
     opacity: 0.5;
 }
 
-.formSignup {
-    border: 1px solid white;
-    display: flex;    
-    justify-content: center;
-    align-items: center;
-    padding: 4%;
-    flex-wrap: wrap;
-    width: 400px;
-}
-
-.hamburgreenLogo {
-    height: 250px;
-}
-
 .signupTitle {
     color: var(--violet);
+    margin-top: 4vw;
+    margin-left: 18vw;
+    margin-bottom: 2vw;
+}
+
+.signupBtns {
+    display: flex;
 }

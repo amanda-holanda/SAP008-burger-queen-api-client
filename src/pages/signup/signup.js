@@ -32,10 +32,9 @@ export const Signup = () => {
   }
 
   return (
-    <div className="wrapperSignup">
+    <form className='formSignup' onSubmit={handleCreateUser}>    
       <img src={hamburgreenLogo} className='hamburgreenLogo' />
-      <Link className='voltarLink' to="/">Voltar</Link>
-      <form className='formSignup' onSubmit={handleCreateUser}>
+      <Link className='voltarLink' to="/">Voltar</Link>      
         <h1 className='signupTitle'>Cadastro</h1>
         <Input
           type="text"
@@ -59,10 +58,11 @@ export const Signup = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <p className="errorMsg">{error}</p>
-        <Select onChange={handleChangePosition} name="cargo" text="Cargo" />
-        <SubmitButton type="submit" text="Cadastrar" />
-
-      </form>
-    </div>
+        <div className='signupBtns'>
+          <Select onChange={handleChangePosition} name="cargo" text="Cargo" />
+          <SubmitButton type="submit" text="Cadastrar" />
+        </div>
+        
+    </form>    
   )
 };
