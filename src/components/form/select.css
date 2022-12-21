@@ -1,10 +1,11 @@
 .selectSignup {
     background-color: var(--black);
+    border: solid 3px var(--violet);
     color: var(--white);
-    border: 1px solid var(--violet);
-    border-radius: 4px;
-    height: 40px;
-    width: 130px;
-    font-size: large;
-    margin-right: 3%;
+    width: 30vw;
+    height: 8vw;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 18vw;
 }
