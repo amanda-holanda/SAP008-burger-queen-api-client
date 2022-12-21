@@ -1,5 +1,4 @@
-.formSignup {
-    border: 1px solid white;
+.formSignup {    
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
@@ -35,4 +34,6 @@
     margin-bottom: 2vw;
 }
 
-
+.signupBtns {
+    display: flex;
+}
