@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
+    border: 1px solid greenyellow;
 }
 
 .imgLogin {
@@ -21,18 +22,18 @@
 
 .loginbtn {
     display: flex;
+    border: 1px solid pink;
 }
 
-.noSignUp {
+.signupText {
     color: var(--violet);
     font-size: 1.3rem;
-    font-weight: bold;
-    width: 100%;
+    font-weight: bold;    
     margin-top: 15vw;
     margin-left: 18vw;
 }
 
-.signUp {
+.signupBtn {
     background-color: var(--green);
     color: var(--black);
     padding: 1.8vw;
@@ -43,7 +44,21 @@
     font-weight: bolder;
     border-radius: 10px;
     text-decoration: none;
-    margin-left: 3vw;
+    position: relative;
+    top: 10vw;
+    left: 2vw;
+}
+
+.signUpContainer {
+    display: flex;
+    border: 1px solid red;
+}
+
+@media (min-width: 1024px) {
+    .login {
+        margin: 0 150px 0 150px;
+        border: red 1px solid;
+    }    
 }
 
 
