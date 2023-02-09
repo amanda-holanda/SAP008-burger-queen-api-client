@@ -29,7 +29,7 @@ export const Login = () => {
   return (
     <form className='login' onSubmit={handleLogin}>
       <img className='imgLogin' alt="Logo Hamburgreen" src={hamburgreenLogo} />
-      <h1 className='tittle'>Login</h1>
+      <h1 className='title'>Login</h1>
 
       <Input
         type="email"

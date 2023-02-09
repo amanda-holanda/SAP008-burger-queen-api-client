@@ -1,9 +1,9 @@
 function SubmitButton({ type, text }) {
-    return (
-        <div>
-            <button className="submitButton" type={type}>{text}</button>
-        </div>
-    )
+  return (
+    <button className="submitButton" type={type}>
+      {text}
+    </button>
+  );
 }
 
 export default SubmitButton;
