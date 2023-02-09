@@ -29,7 +29,7 @@ export const Login = () => {
   return (
     <form className='login' onSubmit={handleLogin}>
       <img className='imgLogin' alt="Logo Hamburgreen" src={hamburgreenLogo} />
-      <h1 className='tittle'>Login</h1>
+      <h1 className='title'>Login</h1>
 
       <Input
         type="email"
@@ -50,9 +50,12 @@ export const Login = () => {
         <Select name="cargo" text="Cargo" />
         <SubmitButton type="submit" text="Entrar" />
       </div>
-      <span className='noSignUp'>Não possui cadastro?
-        <Link className='signUp' to="signup/"> Cadastre-se</Link>
-      </span>
+      <div className='signUpContainer'>
+        <span className='signupText'>Não possui cadastro?   
+        </span>
+        <Link className='signupBtn' to="signup/"> Cadastre-se</Link>
+      </div>
+      
     </form >
   )
 };
