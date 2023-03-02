@@ -1,6 +1,6 @@
 .formSignup {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   align-items: center;
   overflow: hidden;
   width: 100%;
@@ -35,7 +35,9 @@
 
 .signupTitle {
   color: var(--violet);
-  margin: 1vh 15vw 1vh 0vw;
+  width: 60vw;
+  text-align: start;
+  margin: 3% 0 1% 0;
 }
 
 .signupBtns {
