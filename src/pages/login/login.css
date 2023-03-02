@@ -24,12 +24,11 @@
 }
 
 .signUpContainer {
-  display: grid;
-  place-items: center;
-  grid-template-columns: 1fr 1fr;
-  width: 60vw;
-  column-gap: 4vw;
+  display: flex;  
+  width: 60vw;  
   margin: 2vh 0 1vh 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .signupText {
