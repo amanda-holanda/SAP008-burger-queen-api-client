@@ -29,8 +29,7 @@ body {
 #root {  
   display: grid;
   grid-template-columns: 1fr;
-  place-items: center;
-  border: 1px solid pink;
+  place-items: center;  
   height: 100vh;
   width: 100vw;
 }
