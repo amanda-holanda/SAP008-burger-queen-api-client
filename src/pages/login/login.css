@@ -46,8 +46,8 @@
   border-radius: 10px;
   text-align: center;
   text-decoration: none;
-  padding: 1.6vh 0 0 0;
-  width: 28vw;
+  padding: 1.5vh 0 0 0;
+  min-width: 28vw;
 }
 
 @media (min-width: 1024px) {
