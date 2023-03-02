@@ -20,14 +20,13 @@
   text-decoration: none;
   background-color: var(--grey);
   color: var(--green);
-  height: 4vh;
-  width: 18vw;
+  height: 40px;
+  width: 80px;
   text-align: center;
   font-weight: bolder;
   border-radius: 5px;
-  font-size: 1.3rem;
-  padding: 8px;
-  margin: 0 60vw 0;
+  font-size: 1.2rem;
+  padding-top: 6px;
 }
 
 .voltarLink:hover {
