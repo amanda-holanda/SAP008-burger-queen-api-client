@@ -1,42 +1,46 @@
-.formSignup {    
-    display: flex;
-    flex-direction: column;
-    margin-top: 4rem;
+.formSignup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }
 
 .hamburgreenLogo {
-    align-self: center;
-    width: 347px;
-    height: 347px;
-    left: 190px;
-    top: 80px;
+  align-self: center;
+  width: 347px;
+  height: 347px;
+  margin-bottom: 2vh;
 }
 
-.voltarLink {    
-    text-decoration: none;
-    background-color: var(--grey);
-    color: var(--green);
-    height: 4vh;
-    width: 18vw;
-    text-align: center;
-    font-weight: bolder;
-    border-radius: 5px;    
-    font-size: 1.3rem;    
-    padding: 8px;
-    margin: 0 60vw 0;
+.voltarLink {
+  text-decoration: none;
+  background-color: var(--grey);
+  color: var(--green);
+  height: 5vh;
+  width: 20vw;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding-top: 1vh;
+  position: relative;
+  right: 20vw;
 }
 
 .voltarLink:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .signupTitle {
-    color: var(--violet);
-    margin-top: 4vw;
-    margin-left: 18vw;
-    margin-bottom: 2vw;
+  color: var(--violet);
+  width: 60vw;
+  text-align: start;
+  margin: 3% 0 1% 0;
 }
 
 .signupBtns {
-    display: flex;
+  display: flex;
 }
