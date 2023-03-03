@@ -17,10 +17,13 @@
   margin: 3% 0 1% 0;
   width: 60vw;
   text-align: start;
+  max-width: 35vw;  
 }
 
 .loginbtn {
   display: flex;
+  width: 60vw;
+  max-width: 35vw;
 }
 
 .signUpContainer {
@@ -29,6 +32,7 @@
   margin: 2vh 0 1vh 0;
   align-items: center;
   justify-content: space-between;
+  max-width: 35vw;
 }
 
 .signupText {
@@ -51,8 +55,7 @@
 }
 
 @media (min-width: 1024px) {
-  .login {
-    margin: 0 150px 0 150px;
+  .login {    
     border: red 1px solid;
   }
 }
